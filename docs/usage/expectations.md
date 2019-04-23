@@ -1,7 +1,7 @@
 # Writing expectations
 
 ## Jasmine and Webdriverjs
-All standard Jasmine matchers are available as described in [matchers](https://jasmine.github.io/2.8/introduction). Webdriverjs interactions are adapted and promices are resolved so not need to resolve the promises manually.
+All standard Jasmine matchers are available as described in [matchers](https://jasmine.github.io/2.8/introduction). Webdriverjs interactions are adapted and promises are resolved so not need to resolve the promises manually.
 ```javascript
 // promises are resolved automatically
 expect(browser.getTitle()).toBe('Master-Detail');
